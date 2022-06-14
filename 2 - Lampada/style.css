@@ -3,17 +3,63 @@
     padding: 0;
 }
 
+body {
+    background-image: url('./img/javascript_wallpaper_by_mrhudson_db8gw2e-fullview.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 head,
 main {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.glass {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    height: 50%;
+    width: 40%;
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 header {
     text-align: center;
 }
 
-button {
+.oneBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnsDiv {
+    display: flex;
+}
+
+.btnsDiv button {
+    margin: 1rem;
+}
+
+.btn {
     width: 80px;
+    height: 40px;
+    background-color: rgb(182, 158, 21);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
 }
