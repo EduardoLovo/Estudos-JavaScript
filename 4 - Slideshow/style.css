@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+body {
+    background-image: url('./img/javascript_wallpaper_by_mrhudson_db8gw2e-fullview.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 .container-slide {
     display: flex;
     justify-content: space-between;

@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url('./img/javascript_wallpaper_by_mrhudson_db8gw2e-fullview.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
 main {
     display: flex;
     height: 100vh;
@@ -13,6 +22,20 @@ main {
     gap: 5vh;
 }
 
+.glass {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    height: 60%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 #text {
     height: 50px;
     font-size: 2rem;
@@ -20,4 +43,8 @@ main {
 
 .button {
     width: 80px;
+    height: 40px;
+    background-color: rgb(182, 158, 21);
+    border-radius: 10px;
+    cursor: pointer;
 }
