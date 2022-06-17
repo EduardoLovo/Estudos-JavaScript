@@ -42,13 +42,6 @@ const removerEfeito = (letra) => {
 
 
 const ativarDiv = (event) => {
-    // let letra = ''
-    // if (event.type == 'click') {
-    //     letra = event.target.id;
-    // } else {
-    //     letra = event.key.toUpperCase();
-    // }
-
     const letra = (event.type == 'click' ? event.target.id : event.key.toUpperCase())
     const letraPermitida = sons.hasOwnProperty(letra);
     if (letraPermitida) {
